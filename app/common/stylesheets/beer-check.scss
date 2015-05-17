@@ -1,0 +1,36 @@
+.page.beer-check.index {
+	background-image: url('/images/group-picture.jpg');
+ 	background-size: cover;
+    background-repeat: no-repeat;
+    .checker {
+
+    	h1 {
+    		width: 100%;
+    		color:#FFF;
+    		font-size: 35pt;
+    		// background-color: rgb(0, 82, 26);
+    		// background-color: #00d046;
+
+    		font-family: 'Comic Sans MS', 'Marker Felt', sans-serif; 
+    		font-weight: 600;
+    		padding: 20px 0px;
+
+    	}
+    	h3 {
+    		color: #fff;
+    		padding: 50px 0 15px 0;
+    		margin: 0px 0 0 0;
+    		font-family: 'Comic Sans MS', 'Marker Felt', sans-serif; 
+    	}
+    }
+    .img-container {
+    	padding:0px 20px;
+    	width:100%;
+	    img {    	
+	    	width:100%;
+	    	
+	    }
+    }
+
+}
+

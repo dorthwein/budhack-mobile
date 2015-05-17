@@ -1,0 +1,43 @@
+
+<div ng-controller="IndexController" class="page index beer-check">
+<!--   
+<super-navbar>
+    <super-navbar-title>
+      Beer Checker
+    </super-navbar-title>
+ </super-navbar> 
+-->
+
+  <div class="tint" ng-class="{'green': myBeer == true, 'red': myBeer == false}">
+	<div class="full-width checker text-center" ng-click="checkBeer()">
+
+		<h3> Tap to try again</h3>		
+		<!-- Is your beer --> 
+		<div ng-show="myBeer == true">
+			<div class="img-container">
+  				<img src="/images/circle-check-green.png" />
+  			</div>
+
+
+  			<h1 class="text-center"> 
+  				Your Bud <br />
+  				<i class="fa fa-smile-o"></i> 
+  				
+  			</h1>
+  		</div>
+
+		<!-- Not your beer -->
+		<div ng-show="myBeer == false">
+			<div class="img-container">
+  				<img src="/images/circle-x-red.png" />
+  			</div>
+  			<h1 class="text-center">
+  				<span> Not Your Bud </span>
+  				<br />
+  				<i class="fa fa-frown-o"></i>
+  			</h1>
+  		</div>
+
+  	</div>
+</div>
+
